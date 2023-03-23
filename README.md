@@ -14,4 +14,4 @@ HexCell.cpp
 HexBoard.cpp
 
 
-The maze solve algorithm is an A*-esque approach, where the heurstic is defined as the sum of the cell distances from the start and the end. The algorithm will always attempt to use the neighbouring cell that is closest to the end first.
+The maze solve algorithm is an optimized depth first search approach, where the heurstic is defined as the sum of the cell distances from the start and the end. The algorithm will always attempt to use the neighbouring cell that is closest to the end first.
